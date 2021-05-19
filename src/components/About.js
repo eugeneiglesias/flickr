@@ -1,8 +1,8 @@
-import './App.css';
+import './../App.css';
 import React from 'react';
 
 const divStyle = {
-    color:'white'
+    color:'black'
 };
 
 class About extends React.Component {

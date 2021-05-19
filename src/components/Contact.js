@@ -1,8 +1,8 @@
-import './App.css';
+import './../App.css';
 import React from 'react';
 
 const divStyle = {
-    color:'white'
+    color:'black'
 };
 
 class Contact extends React.Component {
@@ -10,7 +10,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div style={divStyle}>
-                <h2>About Page</h2>
+                <h2>Contact Page</h2>
                 <main>
                     <p>This section contains contact information...</p>
                 </main>
