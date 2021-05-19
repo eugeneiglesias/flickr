@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
 import Photos from './components/Photos';
@@ -9,7 +9,6 @@ import Contact from './components/Contact';
 class App extends React.Component {
   render() {
       return (
-        <Router>
         <div className="App">
           <div>
             <nav>
@@ -42,11 +41,8 @@ class App extends React.Component {
             <Route path="/photos">
               <Photos />
             </Route>
-
-
           </Switch>
           </div>
-          </Router>
             );
   }
 }
