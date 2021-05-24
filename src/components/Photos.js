@@ -36,7 +36,7 @@ export default class Photos extends React.Component {
   
     return (
       <div style={divStyle}>
-      <h2>My Photos</h2>
+      <h1>My Photos</h1>
         {renderItems}
       </div>
     );

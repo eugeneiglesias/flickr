@@ -10,7 +10,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div style={divStyle}>
-                <h2>Contact Page</h2>
+                <h1>Contact Page</h1>
                 <main>
                     <p>This section contains contact information...</p>
                 </main>
